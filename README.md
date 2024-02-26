@@ -54,3 +54,35 @@ Follow these steps to set up and run the Inventory Management System locally on 
 ```bash
 git clone https://github.com/sakthivelt/Inventory-Management-System.git
 cd Inventory-Management-System
+
+```
+```bash
+cd client
+npm install
+
+**Install Dependencies:**
+
+cd ../server
+npm install
+```
+
+**Clone the Repository:****
+
+Create a .env file in the server directory with the following content:
+
+```bash
+MONGODB_URI=your_mongodb_uri
+PORT=your_server_port
+```
+
+**Clone the Repository:****
+
+```bash
+# In the client directory
+cd client
+npm run dev
+
+# In the server directory
+cd ../server
+npm run start
+```

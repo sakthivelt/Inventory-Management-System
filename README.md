@@ -66,7 +66,7 @@ cd ../server
 npm install
 ```
 
-**Clone the Repository:****
+**Set Up Environment Variables:**
 
 Create a .env file in the server directory with the following content:
 
@@ -75,7 +75,7 @@ MONGODB_URI=your_mongodb_uri
 PORT=your_server_port
 ```
 
-**Clone the Repository:****
+**Run the Project:**
 
 ```bash
 # In the client directory
